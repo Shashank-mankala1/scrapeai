@@ -1,0 +1,11 @@
+{
+  "name": "ScrapeAI",
+  "description": "Summarize or ask about the current page using ScrapeAI.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+
+  "action": { "default_popup": "popup.html", "default_title": "ScrapeAI" },
+
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://ai-scrape-api-72345269003.us-central1.run.app/*", "<all_urls>"]
+}
